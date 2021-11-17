@@ -1,5 +1,5 @@
 const initalTodo=[];
-const todo =(state=initalTodo,action)=>{
+const todoReducer =(state=initalTodo,action)=>{
     switch(action.type){
         case 'todo/todoAdded' :
             return [
@@ -23,4 +23,4 @@ const todo =(state=initalTodo,action)=>{
 }
 
 }
-export default todo;
+export default todoReducer;
