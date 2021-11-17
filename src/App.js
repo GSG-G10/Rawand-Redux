@@ -1,5 +1,6 @@
 import React from 'react';
-import TodoItem from './components/TodoItem'
+import TodoItem from './components/TodoItem';
+import TodoList from './components/TodoItem'
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
      
        <TodoItem />
+       <TodoList />
     </div>
   );
 }
