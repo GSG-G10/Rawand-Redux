@@ -1,13 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import TodoItem from './components/TodoItem'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
      
- 
+       <TodoItem />
     </div>
   );
 }
